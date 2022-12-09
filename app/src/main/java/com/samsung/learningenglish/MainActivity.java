@@ -12,9 +12,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView btn;
-    EditText name;
-    EditText lastName;
+    private TextView btn;
+    private EditText name;
+    private EditText lastName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
